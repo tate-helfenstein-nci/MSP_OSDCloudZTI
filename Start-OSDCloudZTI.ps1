@@ -54,7 +54,7 @@ param(
     [switch]$PromptForPassphrase,
 
     [Parameter(Mandatory = $false)]
-    [string]$ConfigUrl = "https://yourstorageaccount.blob.core.windows.net/osdcloud/Tenants.json"
+    [string]$ConfigUrl = "https://github.com/tate-helfenstein-nci/MSP_OSDCloudZTI/blob/main/Tenants.json"
 )
 
 Set-StrictMode -Version Latest
