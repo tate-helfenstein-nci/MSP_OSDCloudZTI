@@ -1,0 +1,38 @@
+{
+  "Tenants": [
+    {
+      "TenantKey": "Helfenstein",
+      "DisplayName": "Helfenstein",
+      "TenantId": "967ca47e-83a0-422e-b948-903f7dbeaaca",
+      "ClientId": "b84fa966-a7cc-4dfb-a801-b1e6f5d8e8f6",
+      "ClientSecret": "76492d1116743f0423413b16050a5345MgB8AHAARQAzAGcAWABSAEYAUABUADcAawA2AGgASwBpACsAVgB5AHgAOQBEAFEAPQA9AHwAYwBmAGEANgAxADMAZQAwAGMAYwBiADUANQAxADIAYgAxADcAZAA4AGIAYQA5ADYANAAwADMANwA5ADEAZAA3ADQAYwA1ADYAOQAzADMAMgBlAGQANQBhADgAYQA1AGQAOAAyADkAMABjADYAYwBkAGUAMwBjAGEAZQBjAGIAZQBkADcANQAwADUAMgBjAGMAZQBjADcAZQA1ADEAYQAwAGMAZABiADcANwA0ADYAYwA1ADkAYgAzADEAZABmADQAMwBlAGYAOABhADAAMwA3AGEAOQA4ADkANQBhADIAMwA1AGIAMwBiADQANwA5AGQAMQBlAGEANwAxADIAMgAwAGIAZAAwADEAMQA1AGEAOQA3ADMANgA0ADQANwAxAGIANQBkADkANgA2ADMAZAA1ADUANwBmADEAYQA0AGIAYgAxADAAMgAyAGQAYQAxAGEAMgA5AGUAMAAwADUAYwBhAGQANgAxAGEANAA0ADAAOABmADUAMwBiADUAYwA1AGIA",
+      "DefaultGroupTag": "DEPT-FATHER",
+      "SerialPrefixMatch": ["HEL", "HEL"],
+      "UseAutopilot": true
+    },
+    {
+      "TenantKey": "Helfenstein1",
+      "DisplayName": "Helfenstein",
+      "TenantId": "967ca47e-83a0-422e-b948-903f7dbeaaca",
+      "ClientId": "b84fa966-a7cc-4dfb-a801-b1e6f5d8e8f6",
+      "ClientSecret": "X",
+      "DefaultGroupTag": "DEPT-FATHER",
+      "SerialPrefixMatch": ["HEL", "HEL"],
+      "UseAutopilot": true
+    },
+    {
+      "TenantKey": "ClientC",
+      "DisplayName": "Client C - Woodgrove (No Autopilot)",
+      "UseAutopilot": false,
+      "LocalAdmin": {
+        "Username": "NCIAdmin",
+        "EncryptedPassword": "",
+        "PlainPassword": "CHANGE_ME_BEFORE_PRODUCTION"
+      },
+      "ComputerNamePrefix": "WDG",
+      "SerialPrefixMatch": ["WDG"]
+    }
+  ]
+}
+
+
